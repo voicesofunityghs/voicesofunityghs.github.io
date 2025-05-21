@@ -37,26 +37,25 @@ ul {
   }
   .subtitleFont{
     font-family:fantasy;
-    width: 50%;
+    width: 100%;
     text-align: center;
     border-style: solid;
     border-spacing: 100px;
     margin-top: 30px;
     margin-bottom: 0px;
+    margin-left: 50px;
   }
 
   .h5{
     color: blue;
     font-size:150px;
     text-align:center;
-    width:50%;
+    width:100%;
     margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 50px;
   }
   
   body{
     background-color: rgb(251, 255, 132);
   }
-  
-  
-  
-  
