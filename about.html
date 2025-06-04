@@ -1,15 +1,151 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css"> 
-    </head>
-    <body>
-        <ul class="active" >
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="info.html">Information</a></li>
-        </ul>
-        About Us
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(251, 255, 132);
+    }
+
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    .content {
+      margin: 2rem;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    ul.active {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    ul.active li {
+      float: left;
+      width: 25%;
+    }
+
+    ul.active li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-family: Monaco, monospace;
+      border: solid;
+      background-color: #00ff8c;
+      position: relative;
+    }
+
+    ul.active li a:hover {
+      background-color: #00e67f;
+    }
+
+    section {
+      background-color: #fff;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 900px;
+    }
+
+    .highlight {
+      color: #d63484;
+      font-weight: bold;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .about-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .quote {
+      font-style: italic;
+      font-size: 1.2rem;
+      text-align: center;
+      margin: 1rem 0;
+      color: #444;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <ul class="active">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="info.html">Information</a></li>
+    <li><a href="about.html">About Us</a></li>
+  </ul>
+
+  <div class="content">
+    <h1>About Us</h1>
+
+    <section>
+      <p class="quote">“Unity in diversity makes us stronger.”</p>
+      <p>
+        The <span class="highlight">Voices of Unity</span> Club is more than a student organization — it's a celebration of cultures, traditions, and stories from every corner of the globe. We believe that by sharing our unique backgrounds and experiences, we foster a more connected and compassionate community.
+      </p>
+    </section>
+
+    <section>
+      <h2>Mission Statement</h2>
+      <p>
+        The Voices of Unity Club is committed to celebrating and sharing the diversity of languages and cultures in our school community. Our mission is to create an inclusive space where students from all backgrounds can connect, learn, and grow together through meaningful cultural exchange and activities.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Culture</h2>
+      <p>
+        Unity doesn’t mean uniformity — it means embracing our beautiful differences while finding common ground. Every meeting, event, and discussion in our club is guided by <span class="highlight">empathy, openness, and creativity</span>.
+      </p>
+      <img class="about-image" src="https://images.unsplash.com/photo-1504595403659-9088ce801e29" alt="Unity Group">
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>
+        Club President: 
+      </p> 
+
+      <p>
+        Club Vice President: 
+      </p> 
+
+      <p>
+        Club Officers: 
+      </p> 
+
+      <p>
+        Email: voicesofunityg1@gmail.com
+      </p>
+      <p style="text-align: center; font-weight: bold; font-size: 1.1rem;">
+        🌍 Come for the culture, stay for the community!
+      </p>
+    </section>
+  </div>
+</body>
 </html>
