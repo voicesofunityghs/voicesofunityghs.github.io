@@ -1,15 +1,108 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css"> 
-    </head>
-    <body>
-        <ul class="active" >
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="info.html">Information</a></li>
-        </ul>
-        Information
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(251, 255, 132);
+    }
+
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    .content {
+      margin: 2rem;
+    }
+
+    ul.active {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    ul.active li {
+      float: left;
+      width: 25%;
+    }
+
+    ul.active li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-family: Monaco, monospace;
+      border: solid;
+      background-color: #00ff8c;
+      position: relative;
+    }
+
+    ul.active li a:hover {
+      background-color: #00e67f;
+    }
+
+    section {
+      background-color: #fff;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <ul class="active">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="info.html">Information</a></li>
+    <li><a href="about.html">About Us</a></li>
+  </ul>
+
+  <div class="content">
+    <h1>Club Information</h1>
+
+    <section>
+      <h2>What We Do</h2>
+      <ul>
+        <li>Learn new content about languages from all across the globe.</li>
+        <li>Have in-depth discussions about dialects and cultures.</li>
+        <li>Watch movies and documentaries relating to language. </li>
+        <li>Occasionally have snacks!</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Additional Topics</h2>
+      <ul>
+        <li>Discuss the contributions of languages in history (ex: Navajo Code Talkers)</li>
+        <li>Explore linguistics (ex: phonetics)</li>
+        <li>Understand issues with language death and its impact on humanity.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Get Involved</h2>
+      <p>
+        Whether you're fluent in multiple languages or just curious about learning something new, there's a place for you in the Voices of Unity Club. Everyone is welcome to explore, share, and celebrate culture together.
+      </p>
+    </section>
+  </div>
+</body>
 </html>
